@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -30,9 +31,10 @@ body{
     flex-direction: column;
 }
 h1{
-    font-size: 55px;
+    font-size: 40px;
     color: rgb(17, 165, 74);
     margin-left: 50px;
+    text-align: center;
 }
 .container{
     display: flex;
@@ -49,7 +51,8 @@ h1{
 }
 h2{
     color: #fff;
-    font-size: 25px;
+    font-size: 22px;
+    text-align: center;
 }
 textarea{
     resize: none;
@@ -88,8 +91,9 @@ button{
 
 @media (max-width: 430px) {
     h1{
-        font-size: 30px;
+        font-size: 28px;
         margin-right: 50px;
+        text-align: center;
     }
     .nav{
         width: 100%;
@@ -106,6 +110,10 @@ button{
     }
     textarea{
         width: 100%;
+    }
+    h2{
+        text-align: center;
+        font-size: 18px;
     }
 }
 @media (max-width: 370px) {

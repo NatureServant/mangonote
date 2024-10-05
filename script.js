@@ -26,7 +26,7 @@ const addNote = (text = "") =>{
     <div class="card" id="card">
         <div class="btn-area">
         <button id="saveBtn"><img id="changeImg" src="img/save.png"></button>
-        <h2>Note</h2>
+        <h2>Let's conserve our Mother Earth</h2>
         <button id="delBtn"><img src="img/delete.png"></button>
         </div>
         <textarea id="textArea" rows="15" cols="50" placeholder="Type here..." autocomplete="off">${text}</textarea>
